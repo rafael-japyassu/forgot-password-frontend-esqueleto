@@ -20,14 +20,6 @@ const Layout: React.FC = () => {
                     </Col>
                 </Row>
             </div>
-            {/* <Row className="layout-page-left">
-                <Col md="7" className="form-page">
-                    <p className="layout-title">Code<span className="layout-title-color">83</span></p>
-                    <div className="container">
-                        <Routes />
-                    </div>
-                </Col>
-            </Row> */}
         </div>
     );
 }
