@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Redirect } from 'react-router-dom';
+import User from './pages/User';
+import Home from './pages/Home';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App: React.FC = () => {
+	return (
+		<BrowserRouter>
+			{
+				localStorage.getItem("app_id") ?
+				<div>
+					<Redirect to="/inicio" />
+					<Home />
+				</div> :
+				<div>
+					<Redirect to="/login" />
+					<User />
+				</div>
+					
+			}
+			
+		</BrowserRouter>
+	);
 }
 
 export default App;

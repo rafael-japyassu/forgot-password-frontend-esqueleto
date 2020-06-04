@@ -1,0 +1,82 @@
+
+.container > h1 {
+    color: #32C7AB;
+}
+
+.login-subtitle {
+    font-size: 18px;
+}
+
+.form-login > form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    padding: 25px;
+}
+
+.form-login > form > label {
+    margin-top: 10px;
+    color: #32C7AB;
+    font-size: 20px;
+}
+
+.custom-input {
+    outline: none;
+    height: 44px;
+    border: 2px solid #32C7AB;
+    border-radius: 27px;
+    padding-left: 15px;
+}
+
+.custom-input:focus {
+
+    border: 3px solid #32C7AB;
+}
+
+.custom-buttom {
+    margin-top: 40px;
+    outline: none;
+    height: 44px;
+    border: 2px solid #32C7AB;
+    background-color: #32C7AB;
+    color: white;
+    border-radius: 27px;
+    padding-left: 15px;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+.custom-buttom:hover {
+
+    border: 2px solid rgb(45, 177, 153);
+    background-color: rgb(45, 177, 153);
+}
+
+.custom-buttom:focus {
+
+    outline: none;
+}
+
+.actions {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.actions > a {
+    color: #32C7AB;
+}
+
+.actions > p > a {
+    color: #32C7AB;
+}
+
+a:hover {
+    color: rgb(45, 177, 153);
+    text-decoration: none;
+}
+
+.actions > p > a:hover {
+    color: rgb(45, 177, 153);
+}
