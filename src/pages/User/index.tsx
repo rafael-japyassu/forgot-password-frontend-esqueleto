@@ -12,7 +12,7 @@ const Layout: React.FC = () => {
         <div className="layout-page">
             <div className="layout-page-left">  
                 <Row className="row-custom">
-                    <Col md="7" className="form-page">
+                    <Col xs="12" md="12" lg="7" className="form-page">
                         <p className="layout-title">Code<span className="layout-title-color">83</span></p>
                         <div className="container">
                             <Routes />

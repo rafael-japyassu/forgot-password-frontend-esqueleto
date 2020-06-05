@@ -7,7 +7,7 @@ const ForgotPasswordForm: React.FC = () => {
     return(
         <>
             <h1>Recuperar Senha</h1>
-            <span className="login-subtitle">Informe seu email para enviarmos o procedimento de recuperação de senha</span>
+            <span className="login-subtitle text-center">Informe seu email para enviarmos o procedimento de recuperação de senha</span>
             <div className="form-login">
                 <form>
                     <label>Email</label>

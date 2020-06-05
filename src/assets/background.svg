@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920.204" height="1080" viewBox="0 0 1920.204 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        fill: #32c7ab;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_9" data-name="Grupo 9" transform="translate(0 -1171)">
+    <g id="Retângulo_1" data-name="Retângulo 1" class="cls-1" transform="translate(0 1171)">
+      <rect class="cls-3" width="1920" height="1080"/>
+      <rect class="cls-4" x="0.5" y="0.5" width="1919" height="1079"/>
+    </g>
+    <g id="Grupo_8" data-name="Grupo 8">
+      <g id="Grupo_5" data-name="Grupo 5" transform="translate(390.31 -10)">
+        <g id="Grupo_3" data-name="Grupo 3" transform="translate(370.702)">
+          <g id="Grupo_2" data-name="Grupo 2">
+            <path id="Caminho_1" data-name="Caminho 1" class="cls-2" d="M370.7,0S594.807,335.593,975.617,289.772,1528.894,485.7,1528.894,485.7V0Z" transform="translate(-369.702 1181)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Grupo_7" data-name="Grupo 7">
+      <g id="Grupo_6" data-name="Grupo 6" transform="translate(381.31 15)">
+        <g id="Grupo_3-2" data-name="Grupo 3" transform="translate(370.702)">
+          <g id="Grupo_2-2" data-name="Grupo 2">
+            <path id="Caminho_1-2" data-name="Caminho 1" class="cls-2" d="M1158.193,485.7S934.087,150.111,553.278,195.933,0,0,0,0V485.7Z" transform="translate(-752 1750)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
